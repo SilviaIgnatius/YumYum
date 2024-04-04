@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- icon -->
+    <link rel="icon" href="../icon.png" type="image/icon type">
+    <!-- icon -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CPoppins:300,400,500,600,700,800" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        a.tagcloud{
+          text-decoration: none;
+          color: white;
+        }
+        .col{
+            margin-top: 20px;
+        }
+        .text-muted{
+            align-items: center;
+            margin: -10px 0px 0px;
+        }
+        h3{
+            color: #1d2127;
+            font-size: 15px;
+            text-align: center;
+            font-family: Poppins;
+            margin: 0px 0px 10px;
+            /* @font-family-monospace */
+        }
+        .img_card{
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        a{
+            text-decoration: none;
+        }
+        .d-block{
+            border-radius: 0%;
+            width:5500px;
+            height:480px;
+        }
+        h3{
+            color: #991417;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- nav bar starts -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html" style="font-family: Pacifico;">Yum Yum</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html" target="_blank">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../hotDeals/hotDeals.html" target="_blank">Hot Deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../Promo/promo.html" target="_blank">promos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../contactUs/contactUs.html" target="_blank">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+                    <a class="nav-link active" aria-current="page" href="../Login/login.html" style="color: white;" target="_blank">Log in</a>
+                    <a class="nav-link active" aria-current="page" href="../Login/signUp.html" style="color: white;" target="_blank">Sign in</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- nav bar ends -->
+
+      <!-- slide starts -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1560776423-3f0a404149d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1602437029960-9418c5865778?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- slide ends -->
+
+    <!-- cards start -->
+<br>
+    <center>
+        <table><tr>
+            <td style="border-bottom: 1px solid gray; width: 44%">&nbsp;</td>
+            <td style="vertical-align:middle;text-align:center" rowspan="2">
+                <p style="display: inline-block;" class="section-title heading-border border-0 mb-3">&nbsp; Categories &nbsp; <a href="../featured food/feaFood.html" target="_blank" class="btn btn-view btn-sm btn-success">View All</a> &nbsp; </p>
+            </td>
+            <td style="border-bottom: 1px solid gray; width: 43%">&nbsp;</td>
+            </tr><tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            </tr>
+        </table>
+    </center>
+    <div class="container">
+        <div class="row row-cols-6">
+        <!-- dish 1 kothu -->
+          <div class="menu1">
+            <div class="col">
+                <a href="/menu/3">
+                    <figure>
+                        <img class="img_card" src="./pics/kothu.jpg" alt="food">
+                    </figure>
+                    <div class="category-content">
+                        <h3>KOTHU</h3>
+                        <small style="padding-left: 25%;" class="text-muted">main course</small>
+                    </div>
+                </a>
+            </div>
+          </div>
+          <!-- ------------------------------------------------------------------------------- -->
+          <div class="menu1">
+            <div class="col">
+                <a href="/menu/3">
+                    <figure>
+                        <img class="img_card" src="./pics/noodles.jpg" alt="food">
+                    </figure>
+                    <div class="category-content">
+                        <h3>NOODLES</h3>
+                        <small style="padding-left: 25%;" class="text-muted">main course</small>
+                    </div>
+                </a>
+            </div>
+          </div>
+          <!-- ------------------------------------------------------------------------------- -->
+          <div class="menu1">
+            <div class="col">
+                <a href="/menu/3">
+                    <figure>
+                        <img class="img_card" src="./pics/briyani.jpg" alt="food">
+                    </figure>
+                    <div class="category-content">
+                        <h3>BRIYANI</h3>
+                        <small style="padding-left: 25%;" class="text-muted">main course</small>
+                    </div>
+                </a>
+            </div>
+          </div>
+          <div class="menu1">
+            <div class="col">
+                <a href="/menu/3">
+                    <figure>
+                        <img class="img_card" src="./pics/sandwitch.jpg" alt="food">
+                    </figure>
+                    <div class="category-content">
+                        <h3>SANDWICHES</h3>
+                        <small style="padding-left: 25%;" class="text-muted">main course</small>
+                    </div>
+                </a>
+            </div>
+          </div>
+          <div class="menu1">
+            <div class="col">
+                <a href="/menu/3">
+                    <figure>
+                        <img class="img_card" src="./pics/fried.jpg" alt="food">
+                    </figure>
+                    <div class="category-content">
+                        <h3>FRIED RICE</h3>
+                        <small style="padding-left: 25%;" class="text-muted">main course</small>
+                    </div>
+                </a>
+            </div>
+          </div>
+          <div class="menu1">
+            <div class="col">
+                <a href="/menu/3">
+                    <figure>
+                        <img class="img_card" src="./pics/PULAO.jpg" alt="food">
+                    </figure>
+                    <div class="category-content">
+                        <h3>PULAO RICE</h3>
+                        <small style="padding-left: 25%;" class="text-muted">main course</small>
+                    </div>
+                </a>
+            </div>
+          </div>
+          <div class="menu1">
+            <div class="col">
+                <a href="/menu/3">
+                    <figure>
+                        <img class="img_card" src="./pics/dosa.jpg" alt="food">
+                    </figure>
+                    <div class="category-content">
+                        <h3>DOSA</h3>
+                        <small style="padding-left: 25%;" class="text-muted">main course</small>
+                    </div>
+                </a>
+            </div>
+          </div>
+          <div class="menu1">
+            <div class="col">
+                <a href="/menu/3">
+                    <figure>
+                        <img class="img_card" src="./pics/NASI.jpg" alt="food">
+                    </figure>
+                    <div class="category-content">
+                        <h3>NASI KORENG</h3>
+                        <small style="padding-left: 25%;" class="text-muted">main course</small>
+                    </div>
+                </a>
+            </div>
+          </div>
+          <!-- ------------------------------------------------------------------------------- -->
+          <div class="menu1">
+            <div class="col">
+                <a href="/menu/3">
+                    <figure>
+                        <img class="img_card" src="./pics/RICE.jpg" alt="food">
+                    </figure>
+                    <div class="category-content">
+                        <h3>RICE AND CURRY</h3>
+                        <small style="padding-left: 25%;" class="text-muted">main course</small>
+                    </div>
+                </a>
+            </div>
+          </div>
+          <!-- ------------------------------------------------------------------------------- -->
+          <!-- ------------------------------------------------------------------------------- -->
+          <div class="menu1">
+            <div class="col">
+                <a href="/menu/3">
+                    <figure>
+                        <img class="img_card" src="./pics/SOUP.jpg" alt="food">
+                    </figure>
+                    <div class="category-content">
+                        <h3>SOUP</h3>
+                        <small style="padding-left: 25%;" class="text-muted">main course</small>
+                    </div>
+                </a>
+            </div>
+          </div>
+          <!-- ------------------------------------------------------------------------------- -->
+          <!-- ------------------------------------------------------------------------------- -->
+          <div class="menu1">
+            <div class="col">
+                <a href="/menu/3">
+                    <figure>
+                        <img class="img_card" src="./pics/SALAD.jpg" alt="food">
+                    </figure>
+                    <div class="category-content">
+                        <h3>SALAD</h3>
+                        <small style="padding-left: 25%;" class="text-muted">main course</small>
+                    </div>
+                </a>
+            </div>
+          </div>
+          <!-- ------------------------------------------------------------------------------- -->
+          <!-- ------------------------------------------------------------------------------- -->
+          <div class="menu1">
+            <div class="col">
+                <a href="/menu/3">
+                    <figure>
+                        <img class="img_card" src="./pics/BITES.jpg" alt="food">
+                    </figure>
+                    <div class="category-content">
+                        <h3>BITES AND CURRIES</h3>
+                        <small style="padding-left: 25%;" class="text-muted">main course</small>
+                    </div>
+                </a>
+            </div>
+          </div>
+          <!-- ------------------------------------------------------------------------------- -->
+          <!-- ------------------------------------------------------------------------------- -->
+          <div class="menu1">
+            <div class="col">
+                <a href="/menu/3">
+                    <figure>
+                        <img class="img_card" src="./pics/DESS.jpg" alt="food">
+                    </figure>
+                    <div class="category-content">
+                        <h3>DESSERTS</h3>
+                        <small style="padding-left: 25%;" class="text-muted">main course</small>
+                    </div>
+                </a>
+            </div>
+          </div>
+          <!-- ------------------------------------------------------------------------------- -->
+          <!-- ------------------------------------------------------------------------------- -->
+          <div class="menu1">
+            <div class="col">
+                <a href="/menu/3">
+                    <figure>
+                        <img class="img_card" src="https://valampuri.foodorders.lk/images/sub/phpGyHzWb.jpg" alt="food">
+                    </figure>
+                    <div class="category-content">
+                        <h3>BRIYANIES</h3>
+                        <small style="padding-left: 25%;" class="text-muted">main course</small>
+                    </div>
+                </a>
+            </div>
+          </div>
+          <!-- ------------------------------------------------------------------------------- -->
+          <!-- ------------------------------------------------------------------------------- -->
+          <div class="menu1">
+            <div class="col">
+                <a href="/menu/3">
+                    <figure>
+                        <img class="img_card" src="./pics/NAAN.jpg" alt="food">
+                    </figure>
+                    <div class="category-content">
+                        <h3>Naans</h3>
+                        <small style="padding-left: 25%;" class="text-muted">main course</small>
+                    </div>
+                </a>
+            </div>
+          </div>
+          <!-- ------------------------------------------------------------------------------- -->
+          <!-- ------------------------------------------------------------------------------- -->
+          <div class="menu1">
+            <div class="col">
+                <a href="/menu/3">
+                    <figure>
+                        <img class="img_card" src="./pics/DRINKS.jpg" alt="food">
+                    </figure>
+                    <div class="category-content">
+                        <h3>SOFT DRINKS</h3>
+                        <small style="padding-left: 25%;" class="text-muted">main course</small>
+                    </div>
+                </a>
+            </div>
+          </div>
+          <!-- ------------------------------------------------------------------------------- -->
+        </div>
+      </div>
+      <!-- cards End -->
+      
+      <br>
+      <!-- footer start -->
+      <footer class="bg-dark" style="background-color: black; color: #777;"> 
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="widget">
+                            <h4 class="widget-title">Contact Info</h4>
+                            <ul class="contact-info">
+                                <li>
+                                    <span class="contact-info-label">Address</span>28/7 Park street , Colombo 7
+                                </li>
+                                <li>
+                                    <span class="contact-info-label">Phone</span><a href="tel:0771234567" style="text-decoration: none; color: #777;">0771234567</a>
+                                </li>
+                                <li>
+                                    <span class="contact-info-label">Email</span> <a href="yumyum@gmail.com" style="text-decoration: none; color: #777;">yumyum@gmail.com</a>
+                                </li>
+                                <li>
+                                    <span class="contact-info-label">Website</span>
+                                    <a href="" target="_blank" style="text-decoration: none; color: #777;">YumYum.com</a>
+                                </li>
+                            </ul>
+                            <div class="social-icons">
+                                <a href="" class="social-icon social-instagram icon-instagram" target="_blank" title="Instagram"></a>
+                                <a href="" class="social-icon social-twitter icon-twitter" target="_blank" title="Twitter"></a>
+                                <a href="" class="social-icon social-facebook icon-facebook" target="_blank" title="Facebook"></a>
+                            </div><!-- End .social-icons -->
+                        </div><!-- End .widget -->
+                    </div><!-- End .col-lg-3 -->
+
+                    <div class="col-md-5">
+                        <div class="widget">
+                            <h4 class="widget-title">About</h4>
+
+                            <p style="text-align:justify">
+                                YumYum is a famous restaurant in Colombo city renowned for its delicious foods and drinks .
+                                The restaurant in YumYum has the capacity to serve more than 100 people at once and the bar serves variety of cold ,
+                                 hot beverages and the best cocktails and mocktails .</p>
+                        </div><!-- End .widget -->
+
+                          <div class="row">
+                            <div class="col-md-2 col-sm-2"  align="center"></div>
+                                <div class="col-md-4 col-6" align="center"><a href=""><img style="width:140px;height:40px;" src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-google-4d63c31a3e.svg" alt="Download the app for Android"></a></div>
+                                <div class="col-md-4 col-6" align="center"><a href=""><img style="width:150px;height:40px;"  src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-apple-f1f919205b.svg" alt="Download the app for IOS"></a></div>
+                                <div class="col-md-2 col-sm-2"  align="center"></div>
+                            </div>
+                    </div><!-- End .col-lg-3 -->
+                    
+
+                    <div class="col-md-4">
+                        <div class="widget">
+                            <h4 class="widget-title">Food Categories</h4>
+                            <div class="tagcloud" style="text-decoration: none; color: white;">
+                              <a style="text-decoration: none; color: #777;" href="">Biriyanies</a>
+                              <a href="" style="text-decoration: none; color: #777;">Naans and Chapathis</a>
+                              <a href="" style="text-decoration: none; color: #777;">Kottu</a>
+                              <a href="" style="text-decoration: none; color: #777;">Noodles &amp; mee goreng</a>
+                              <a href="" style="text-decoration: none; color: #777;">Bites and Curries</a>
+                              <a href="" style="text-decoration: none; color: #777;">Appetizers &amp; Salads</a>
+                              <a href="" style="text-decoration: none; color: #777;">Soups</a>
+                              <a href="" style="text-decoration: none; color: #777;">Sandwiches</a>
+                              <a href="" style="text-decoration: none; color: #777;">Dosa and Others</a>
+                              <a href="" style="text-decoration: none; color: #777;">Desserts</a>
+                              <a href="" style="text-decoration: none; color: #777;">Soft drinks</a>
+                              <a href="" style="text-decoration: none; color: #777;">Fried Rice</a>
+                              <a href="" style="text-decoration: none; color: #777;">Cakes</a>
+                              <a href="" style="text-decoration: none; color: #777;">Rice &amp; Curry</a>
+                              <a href="" style="text-decoration: none; color: #777;">Nasi goreng</a>
+                              <a href="" style="text-decoration: none; color: #777;">Pulao rice</a>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <div class="row">
+                                <div class="col-md-4 col-4 col-sm-4"><img  style="height:40px; object-fit:fill" src="https://valampuri.foodorders.lk/assets/images/icons/master.png" alt="master card"></div>
+                                <div class="col-md-4 col-4 col-sm-4"><img  style="height:40px; object-fit:fill" src="https://valampuri.foodorders.lk/assets/images/icons/visa.png" alt="Visa card"></div>
+                                <div class="col-md-4 col-4 col-sm-4"><img  style="height:40px; object-fit:fill" src="https://valampuri.foodorders.lk/assets/images/icons/amex.png" alt="Amex card"></div>
+                            </div>
+                        </div><!-- End .widget -->
+                    </div><!-- End .col-lg-3 -->
+                </div><!-- End .row -->
+            </div><!-- End .container -->
+        </div><!-- End .footer-middle -->
+
+        <div class="container pb-5 pb-md-2">
+            <div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap pb-5 pb-md-0">
+                <p class="footer-copyright py-3 pr-4 mb-0 pb-5 pb-md-0">&copy; Yum YumYum 2022. Designed by Std</a></p>
+            </div><!-- End .footer-bottom -->
+        </div><!-- End .container -->
+    </footer>
+      <!-- footer ends -->
+</body>
+</html>

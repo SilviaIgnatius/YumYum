@@ -1,0 +1,38 @@
+/***products***/
+
+#SPECIAL{
+    background: rgb(255, 255, 255);
+}
+#SPECIAL h1{
+    font-size: 50px;
+    color: azure;
+    letter-spacing: 2px;
+    font-weight: 700;
+    background-color: #991417;
+    margin-left: 20PX;
+}
+#produt img{
+    width: 2100px;
+    height: 200px;
+}
+.card{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(253, 247, 247) !important;
+    border: none !important;
+    box-shadow: 3.25px 5px rgba(0,0,0,.3);
+    inset: 4px 4px 10px white;
+    font-family: Poppins;
+    border-radius: 10px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+h5{
+    background-color: #991417;
+    color: aliceblue;
+}
+.btn:hover{
+    color: aliceblue;
+}
