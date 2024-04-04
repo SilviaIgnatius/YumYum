@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -94,4 +95,102 @@
   </script>
   
   </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CPoppins:300,400,500,600,700,800" media="all">
+    <link rel="icon" href="../icon.png" type="image/icon type">
+    <title>Coupon 30%</title>
+    <style>body {
+        font-family: Poppins;
+      }
+      
+      .coupon {
+        border: 2px solid rgba(0, 0, 0, 0.13);
+        width: 400px;
+        border-radius: 5px;
+        margin: 0 auto;
+       height: auto;
+       
+      }
+      
+      .container {
+        padding: 5px 5px 5px 5px;
+        background-color: #f1f1f1;
+      }
+      
+      .promo {
+        background: #ccc;
+        padding: 3px;
+      }
+      
+      .expire {
+        color: red;
+      }
+      .button{
+            background-color: #991417; 
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px 2px;
+            cursor: pointer;
+            font-size: 17px;
+            width: 60%;
+            font-family: Poppins;
+            padding: 23px 20px;
+        line-height: 0;
+        font-size: 14px;
+        display: inline-block;
+        box-sizing: border-box;
+        font-weight: 100;
+        letter-spacing: 0.01em;
+        position: relative;
+        z-index: 1;
+        }
+      </style>
+</head>
+<body>
+  
+    <div class="coupon">
+        <center>
+        <img src="forty.jpg" alt="Avatar" style="width:250px;height: 250px; ">
+        <div class="container" style="background-color:white">
+            <h2 style="color: #991417;"><b>40% of your purchase on wednesday</b></h2> 
+          </div>
+          <div ">
+            <p>Use Promo Code: <span id="copy">40%OFF</span></p>
+            
+        <button class="button" type="button" onclick="copyEvent('copy')"><a style="text-decoration: none; color: white;" >Copy Promocode</a></button>
+        
+            <p class="expire">Expires: May 03, 2022</p>
+          </div>
+      </center>
+      </div>
+   
+      
+  
+  
+    <script>
+      function copyEvent(id)
+      {
+          var str = document.getElementById(id);
+          window.getSelection().selectAllChildren(str);
+          document.execCommand("Copy")
+          document.getElementById("copy").innerHTML="Promocode copied"
+      }
+      document.getElementById("copy").onclick=function(){copyEvent};
+      
+  
+      
+  </script>
+  
+  </body>
+>>>>>>> 4b542d1db4e26b95d2a5aa16abd507ccfac62454
 </html>

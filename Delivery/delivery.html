@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -112,4 +113,120 @@
             </div>
           </div>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CPoppins:300,400,500,600,700,800" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Delivery Details</title>
+    <link rel="icon" href="../icon.png" type="image/icon type">
+    <style>
+        body {
+        font-family: Poppins;
+        color: wheat;
+        }
+
+        .split {
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+        }
+
+        .left {
+        left: 0;
+        background-color: #e6e6e6;
+        padding-left: 15%;
+        background-image: url("food_left.jpg");
+        }
+
+        .right {
+        right: 0;
+        background-color: #e6e6e6;
+        background-image: url("food_right.jpg");
+        }
+        input[type=text],[type=tel], [type=email] {
+            width: 60%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 3px solid #ccc;
+            border-radius: 2%;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            outline: none;
+            margin-right: 2%;
+            margin-left: 2%;
+            font-family: Poppins;
+        }
+        input[type=text]:focus {
+            border: 3px solid #555;
+        }
+        p, input[type=submit]{
+            margin-right: 2%;
+            margin-left: 2%;
+            padding-top: 2%;
+        }
+        h2{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            border-radius: 5%;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            font-family: Poppins;
+        }
+    </style>
+</head>
+<body>
+        <div class="split left">
+            <form action="">
+                <div class="portion">
+                    <h2 style="font-family: Poppins;">Delivery Details </h2>
+                    <p>Full Name <br></p>
+                    <input type="text" class="name" placeholder="First Name" style="width: 46%;"> 
+                    <br>
+                    <input type="text" class="name" placeholder="Last Name" style="width: 46%;">
+                    <br> 
+                    <p>Address</p>
+                    <input type="text" placeholder="Line 1">
+                    <br>
+                    <input type="text" placeholder="Line 2"> 
+                    <br>
+                    <input type="text" placeholder="City" style="float: left; width: 30%;"> 
+                    <input type="text" disabled="Province" placeholder="Central Province" style="float: left; width: 26%; color: black;">
+                </div>
+            </form>
+        </div>
+          
+          <div class="split right">
+            <div class="portion">
+                <h1 class="navbar-brand" href="cards.html" style="font-family: Pacifico; color: white;">Yum Yum</h1>
+                <p>Phone Number</p>
+                <input type="tel" placeholder="+94 77 123 4567">
+                <br>
+                <p>E-mail</p>
+                <input type="email" placeholder="myname@gmail.com">
+                <br> <br><br>
+                <input type="submit" value="Submit" class="button">
+                <input type="Reset" value="Reset" class="button" style="background-color: #991417 ; font-family: Poppins;">
+            </div>
+          </div>
+</body>
+>>>>>>> 4b542d1db4e26b95d2a5aa16abd507ccfac62454
 </html>
